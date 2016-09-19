@@ -1,0 +1,35 @@
+{
+  "name": "ecb-fx-rates",
+  "version": "1.0.0",
+  "description": "Simple and lightweight library for get current and historical fx rates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ./test/test-helper.js --recursive --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/insane-jo/ecb-fx-rates.git"
+  },
+  "keywords": [
+    "european",
+    "central",
+    "bank",
+    "foreign",
+    "exchange",
+    "rates"
+  ],
+  "author": "insane-jo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insane-jo/ecb-fx-rates/issues"
+  },
+  "homepage": "https://github.com/insane-jo/ecb-fx-rates#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "request": "^2.75.0",
+    "xml2json": "^0.10.0"
+  }
+}
